@@ -1,0 +1,6 @@
+{
+    "git.alwaysSignOff": true,
+    "git.enableCommitSigning": true,
+    // Source: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
+    "debug.allowBreakpointsEverywhere": true,
+}

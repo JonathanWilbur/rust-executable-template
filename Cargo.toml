@@ -1,0 +1,15 @@
+[package]
+name = "rust-project-template"
+version = "0.1.0"
+authors = ["Jonathan M. Wilbur <jonathan@wilbur.space>"]
+edition = "2018"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+unic-langid = "0.9"
+fluent-resmgr = "0.0.4"

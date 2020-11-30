@@ -1,0 +1,12 @@
+test/*          linguist-vendored
+documentation/* linguist-documentation=true
+
+# Text files
+*               text=crlf
+*.vcproj	    text eol=crlf
+*.sh		    text eol=lf
+Makefile        text eol=lf
+
+# Binary files
+*.jpg		    -text
+*.pdf           -text
