@@ -5,7 +5,7 @@
 #
 # You must compile the program first by running
 # cargo build --release --target x86_64-unknown-linux-musl --bin main
-FROM alpine
+FROM alpine:latest
 LABEL author="Jonathan M. Wilbur <jonathan@wilbur.space>"
 LABEL environment="production"
 COPY ./i18n /srv/i18n
